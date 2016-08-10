@@ -117,6 +117,7 @@ define accounts::user(
         uid              => $uid,
         gid              => $real_gid,
         shell            => $shell,
+        groups           => $groups,
         comment          => $comment,
       }
 
